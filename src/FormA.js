@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 
 export default function FormA () {
-    const [graduate, setGraduate] = useState('');
+    const [graduate, setGraduate] = useState('')
 
 
     const handleSubmit = (e) => {
 
         e.preventDefault();
         console.log(`Year: ${graduate}`)
-        setGraduate('');
+        setGraduate('')
     
     }
 

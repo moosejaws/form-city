@@ -1,17 +1,15 @@
 import React, { useState } from 'react'
 
 export default function FormD () {
-   const [checkedEarth, setCheckedEarth] = useState(false)
-   const [checkedSpace, setCheckedSpace] = useState(false)
+    const [checkedEarth, setCheckedEarth] = useState(false)
+    const [checkedSpace, setCheckedSpace] = useState(false)
 
     const handleSubmit = (e) => {
 
         e.preventDefault();
         console.log(`Submitted`)
-        setCheckedEarth(false);
-        setCheckedSpace(false)
-       // setNo(false);
-    
+        setCheckedEarth(false)
+        setCheckedSpace(false)    
     }
 
 

@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 
 export default function FormB () {
     
-    const [firstName, setFirstName] = useState('');
-    const [lastName, setLastName] = useState('');
-    const [phone, setPhone] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
+    const [firstName, setFirstName] = useState('')
+    const [lastName, setLastName] = useState('')
+    const [phone, setPhone] = useState('')
+    const [email, setEmail] = useState('')
+    const [message, setMessage] = useState('')
 
 
 
@@ -15,11 +15,11 @@ export default function FormB () {
 
         e.preventDefault();
         console.log(`First Name: ${firstName}; Last Name: ${lastName}; Phone: ${phone}; Email: ${email}; Message: ${message}`)
-        setFirstName('');
-        setLastName('');
-        setPhone('');
-        setEmail('');
-        setMessage('');
+        setFirstName('')
+        setLastName('')
+        setPhone('')
+        setEmail('')
+        setMessage('')
 
     
     }
