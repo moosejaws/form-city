@@ -73,6 +73,7 @@ ul {
 #buttonA {
   background-color: whitesmoke;
   border: none;
+  color:  rgb(23, 23, 23);
   padding: 9px;
   width: 100px;
   border-radius: 20px;
